@@ -61,7 +61,7 @@ export default function Weather() {
         </a>
         , it is open-sourced on
         <a
-          href="https://github.com/SL-GW/Weather-Project-Application"
+          href="https://github.com/SL-GW/react-weather-search-engine"
           target="_blank"
           rel="noreferrer"
         >
@@ -69,7 +69,7 @@ export default function Weather() {
         </a>
         and hosted on
         <a
-          href="https://meteorological-application-project.netlify.app/"
+          href="https://weather-search-engine-with-react.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
