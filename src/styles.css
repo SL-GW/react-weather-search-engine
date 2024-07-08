@@ -1,0 +1,135 @@
+body {
+  background-color: rgba(225, 225, 225);
+
+  color: #142d4c;
+  font-family: "Handlee", cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  color: #385170;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -25px;
+}
+.weather-app {
+  background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  border-radius: 14px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.4);
+  margin: 40px auto;
+  max-width: 60%;
+  padding: 5px;
+}
+.weather-icon {
+  font-size: 50px;
+}
+
+.current-temperature {
+  font-size: 70px;
+  position: relative;
+  top: -25px;
+}
+.current-city {
+  font-size: 45px;
+  position: relative;
+  top: -25px;
+}
+
+.top-box {
+  background-color: rgba(225, 225, 225, 0.7);
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px rgba(236, 236, 236, 0.2);
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.bottom-box {
+  background-color: rgba(225, 225, 225, 0.7);
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px rgba(236, 236, 236, 0.2);
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  text-align: center;
+  width: 80%;
+}
+
+.search-input {
+  background-color: #ececec;
+  border-radius: 4px;
+  border-color: #385170;
+  box-shadow: 8px 8px 2px 1px rgba(236, 236, 236, 0.4);
+  padding: 10px;
+  width: 50%;
+}
+
+.search-button {
+  background-color: #ececec;
+  border-color: #385170;
+  border-radius: 4px;
+  box-shadow: 8px 8px 2px 1px rgba(236, 236, 236, 0.4);
+  color: #142d4c;
+
+  font-weight: bolder;
+  margin: 20px;
+  padding-bottom: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.search-button:hover {
+  background-color: #385170;
+  border: none;
+  color: #ececec;
+  transition: ease-in-out 3ms;
+}
+
+.weather-data {
+  color: #385170;
+  font-weight: bold;
+}
+
+.footnote {
+  font-size: 12px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+
+  top: -20px;
+}
+
+.weekly-forecast {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-around;
+}
+.day-one-temperature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.day-one-high {
+  color: #385170;
+  font-weight: bold;
+}
+
+.App {
+  margin: 10px;
+}
